@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f1f5f9;
+  color: #1e293b;
+}
+
+.container {
+  width: min(900px, 92%);
+  margin: 40px auto;
+}
+
+h1 {
+  margin-bottom: 5px;
+  color: #1d4ed8;
+}
+
+.subtitle {
+  margin-top: 0;
+  color: #64748b;
+}
+
+.card {
+  background: white;
+  padding: 22px;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px #00000012;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+label {
+  display: block;
+  margin: 12px 0 5px;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #cbd5e1;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+button {
+  border: 0;
+  border-radius: 5px;
+  padding: 10px 15px;
+  color: white;
+  background: #2563eb;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.85;
+}
+
+.form-actions {
+  margin-top: 18px;
+  display: flex;
+  gap: 8px;
+}
+
+.secondary {
+  background: #64748b;
+}
+
+.edit-button {
+  background: #f59e0b;
+}
+
+.delete-button {
+  background: #dc2626;
+}
+
+.hidden {
+  display: none;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 12px 8px;
+  border-bottom: 1px solid #e2e8f0;
+  text-align: left;
+}
+
+th {
+  background: #eff6ff;
+}
+
+.action-buttons {
+  display: flex;
+  gap: 5px;
+}
+
+#message {
+  color: #16a34a;
+  min-height: 20px;
+}
+
+@media (max-width: 600px) {
+  th,
+  td {
+    font-size: 14px;
+  }
+}

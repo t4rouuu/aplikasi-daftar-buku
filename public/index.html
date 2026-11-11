@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daftar Buku</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="container">
+    <h1>Daftar Buku</h1>
+    <p class="subtitle">Contoh aplikasi CRUD sederhana dengan Express</p>
+
+    <section class="card">
+      <h2 id="form-title">Tambah Buku</h2>
+      <form id="book-form">
+        <input type="hidden" id="book-id">
+
+        <label for="title">Judul Buku</label>
+        <input type="text" id="title" placeholder="Contoh: Negeri 5 Menara" required>
+
+        <label for="author">Penulis</label>
+        <input type="text" id="author" placeholder="Nama penulis" required>
+
+        <label for="year">Tahun Terbit</label>
+        <input type="number" id="year" min="1" placeholder="2024" required>
+
+        <div class="form-actions">
+          <button type="submit" id="submit-button">Tambah</button>
+          <button type="button" id="cancel-button" class="secondary hidden">Batal</button>
+        </div>
+      </form>
+    </section>
+
+    <section class="card">
+      <h2>Semua Buku</h2>
+      <p id="message"></p>
+      <div class="table-wrapper">
+        <table>
+          <thead>
+            <tr>
+              <th>No</th>
+              <th>Judul</th>
+              <th>Penulis</th>
+              <th>Tahun</th>
+              <th>Aksi</th>
+            </tr>
+          </thead>
+          <tbody id="book-list"></tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
