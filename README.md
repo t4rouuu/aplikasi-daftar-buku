@@ -28,7 +28,7 @@ Buka `http://localhost:3000` dan ambil screenshot tabel yang berisi:
 - Laskar Pelangi — Andrea Hirata — 2005
 - Bumi Manusia — Pramoedya Ananta Toer — 1980
 
-![Screenshot 1 — Tampilan data awal](./evidence-01-before.png)
+<img width="1303" height="1035" alt="image" src="https://github.com/user-attachments/assets/c0eebdef-289f-4bf3-b908-73f66c4a29d4" />
 
 ### 2. Menambah buku (POST)
 
@@ -40,19 +40,22 @@ Isi form dengan:
 
 Klik **Tambah**. Pastikan muncul pesan **Buku berhasil ditambahkan.**
 
-![Screenshot 2 — Data berhasil ditambahkan](./evidence-02-tambah.png)
+<img width="1303" height="1035" alt="image" src="https://github.com/user-attachments/assets/dba77a96-49ad-47fc-b1ed-22acc1f242bb" />
+
 
 ### 3. Mengubah buku (PUT)
 
 Klik **Edit** pada buku `Pulang`, ubah judul menjadi `Pulang (Edisi Revisi)`, lalu klik **Simpan Perubahan**. Pastikan muncul pesan **Buku berhasil diubah.**
 
-![Screenshot 3 — Data berhasil diubah](./evidence-03-edit.png)
+<img width="1303" height="1111" alt="image" src="https://github.com/user-attachments/assets/17a5c792-1804-42f3-a96b-6bf04bd85205" />
+
 
 ### 4. Menghapus buku (DELETE)
 
 Klik **Hapus** pada buku `Pulang (Edisi Revisi)` dan konfirmasi. Pastikan muncul pesan **Buku berhasil dihapus.**
 
-![Screenshot 4 — Data berhasil dihapus](./evidence-04-hapus.png)
+<img width="1303" height="1035" alt="image" src="https://github.com/user-attachments/assets/23edfa43-6d47-47fe-8224-32e3f6d5b2e6" />
+
 
 ## Perubahan database: before dan after
 
@@ -73,7 +76,8 @@ Kondisi awal tabel berisi 2 baris:
 2 | Bumi Manusia   | Pramoedya Ananta Toer  | 1980
 ```
 
-![Screenshot 5 — Prisma Studio sebelum perubahan](./evidence-05-database-before.png)
+<img width="1323" height="900" alt="image" src="https://github.com/user-attachments/assets/a89a2d20-2a0d-4903-9c4c-e4ff1d0f9ac5" />
+
 
 ### After
 
@@ -84,8 +88,8 @@ Setelah skenario tambah, edit, dan hapus selesai, jalankan kembali seed data dem
 2 | Bumi Manusia   | Pramoedya Ananta Toer  | 1980
 8 | Pulang         | Leila S. Chudori       | 2012
 ```
+<img width="1323" height="900" alt="image" src="https://github.com/user-attachments/assets/f7cb9c39-df2b-4e03-83f9-41c11bec255f" />
 
-![Screenshot 6 — Prisma Studio sesudah perubahan](./evidence-06-database-after.png)
 
 ## Query verifikasi Neon SQL Editor
 
